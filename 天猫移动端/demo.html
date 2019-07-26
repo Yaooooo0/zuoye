@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/demo.css">
+    <script src="./js/rem.js"></script>
+</head>
+<style>
+   header{
+       width: 7.5rem;
+       height: 0.88rem;
+       background-color: #ff0036;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       margin: 0 auto;
+   }
+    .headerleft{
+        width: 0.6rem;
+        height: 0.6rem;
+        background: url("./img/1.webp") no-repeat;
+        background-size: cover;
+        margin-left: 0.24rem;
+    }
+    .headercenter{
+        width: 2.37rem;
+        height: 0.41rem;
+        background: url("./img/2.jpg_.webp");
+        background-size: cover;
+    }
+    .headerright{
+        display: block;
+        width: 0.6rem;
+        height: 0.6rem;
+        font-size: 0.28rem;
+        line-height: 0.6rem;
+        margin-right: 0.24rem;
+        color: white;
+    }
+    .search{
+        text-decoration: none;
+        box-sizing: border-box;
+        align-self: center;
+        padding: 0 0.2rem 0.2rem;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        flex-direction: row;
+        width: 7.5rem;
+        position: relative;
+        min-height:46px;
+        background-color: #ff0036;
+        margin: 0 auto;
+    }
+    .search1{
+        border:0 solid black;
+        position: relative;
+        box-sizing: border-box;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        flex-direction: row;
+        align-content: flex-start;
+        flex: 1 1 0%;
+        background-color:rgb(255,255,255) ;
+        border-radius: 0.08rem;
+        -webkit-box-flex: 1;
+    }
+    nav{
+        width: 7.02rem;
+        height: 1.56rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .navbox{
+        display: block;
+        width: 1.4rem;
+        height: 1.56rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .navbox .navimg{
+        width: 0.96rem;
+        height: 0.96rem;
+        margin: 0.1rem 0.22rem 0.04rem;
+    }
+    .navbox span{
+        display: block;
+        width: 1.4rem;
+        height: 0.3rem;
+        font-size: 0.26rem;
+        line-height: 0.24rem;
+        text-align: center;
+        color: black;
+    }
+    .slider{
+        width: 7.02rem;
+        height: 2.645rem;
+        margin: 0.2rem auto;
+        position: relative;
+    }
+    .slider img{
+        width:100%;
+        height: 100%;
+    }
+    .container{
+         width: 7.02rem;
+        height: 2.645rem;
+    }
+    .heng{
+        width: 5rem;
+        height: 0.2rem;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 0;
+        left: 1rem;
+        z-index: 1;
+        /*background-color: black;*/
+    }
+    .heng1{
+        width: 0.32rem;
+        height: 0.06rem;
+    }
+    .heng1 img{
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    .heng2{
+        width: 0.32rem;
+        height: 0.06rem;
+
+    }
+    .hongbao{
+        width: 7.5rem;
+        height: 3.6rem;
+        margin: 0 auto;
+    }
+    .hongbao img{
+        width: 100%;
+        height: 100%;
+    }
+    .xsqg{
+        width: 7.02rem;
+        height: 5.26rem;
+        margin: 0.2rem auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .xsqgbox{
+        width: 3.25rem;
+        height: 2.37rem;
+        background: url("./img/background.png");
+         display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0.1rem;
+    }
+    .text{
+         width: 7.02rem;
+        height: 0.592rem;
+        font-size: 0.36rem;
+        color: rgb(51, 51, 51);
+        text-align: left;
+        margin: 0 auto;
+        font-weight: 700
+    }
+    .cnxhbox{
+        width: 7.54rem;
+        position: relative;
+        background: url("./img/bjt.jpg_.webp");
+        margin: 0 auto;
+    }
+    .bigbox{
+         width: 7.064rem;
+        height: 28rem;
+        margin: 0 auto;
+        padding-top:0.1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+
+    }
+    .xsqg-text{
+    box-sizing: border-box;
+    flex-direction: column;
+    font-size: 0.32rem;
+    color: rgb(32, 32, 32);
+    font-weight: bold;
+    text-decoration: none;
+    text-align: left;
+    }
+    .sj{
+        width: 1.35rem;
+        height: 0.42rem;
+    }
+    .xsqgtu1{
+         
+    width: 1.55rem;
+    height: 1.55rem;
+    
+    }
+    .xsqgtu1 img{
+        width: 100%;
+        height: 100%;
+    }
+    .sbox{
+        width: 3.4rem;
+        height: 5.34rem;
+        background: white;
+    }
+    .sbox1{
+        width: 3.4rem;
+        height: 3.7rem;
+        float: left;
+    }
+     .sbox2{
+        width: 3.4rem;
+        height: 0.74rem;
+          float: left;
+    }
+     .sbox2 img{
+        width: 100%;
+        height: 100%;
+    }
+    .sbox3{
+        width: 3.4rem;
+        height: 0.35rem;
+         float: left;
+    }
+    .sbox4{
+        width:3.4rem;
+        height: 0.6rem;
+         float: left;
+    }
+    .sbox img{
+        width: 100%;
+        height: 100%;
+    }
+    .tu1{
+        display: block;
+    }
+    .dali{
+         width: 3.4rem;
+        height: 5.34rem;
+        
+    }
+    .dali img{
+        width: 100%;
+        height: 100%;
+    }
+    .wnjx{
+        white-space: nowrap;
+    border:0.01rem solid rgb(255, 0, 54);
+    position: relative;
+        top: -0.2rem;
+        left: 0.2rem;
+    box-sizing: border-box;
+    display: block;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-shrink: 0;
+    font-size: 0.2rem;
+    width: 1.1rem;
+    text-overflow: ellipsis;
+    background-color: rgb(255, 237, 241);
+    height: 0.24rem;
+    line-height: 0.22rem;
+    padding-left: 0.04rem;
+    padding-right: 0.04rem;
+    border-radius: 0.02rem;
+    color: rgb(255, 0, 54);
+    text-align: center;
+    overflow: hidden;
+    }
+</style>
+<body>
+    <header>
+        <div class="headerleft"></div>
+        <div class="headercenter"></div>
+        <span class="headerright">登录</span>
+    </header>
+    <a href="" class="search">
+        <div class="search1">
+
+        </div>
+    </a>
+    <nav>
+        <a href="" class="navbox">
+            <img src="./img/navimg1.jpg_.webp" alt="" class="navimg">
+            <span>苏宁易购</span>
+        </a>
+        <a href="" class="navbox">
+            <img src="./img/navimg2.png" alt="" class="navimg">
+            <span>天猫超市</span>
+        </a>
+        <a href="" class="navbox">
+            <img src="./img/navimg3.jpg_.webp" alt="" class="navimg">
+            <span>天猫国际</span>
+        </a>
+        <a href="" class="navbox">
+            <img src="./img/navimg4.jpg_.webp" alt="" class="navimg">
+            <span>聚划算</span>
+        </a>
+        <a href="" class="navbox">
+            <img src="./img/navimg5.jpg_.webp" alt="" class="navimg">
+            <span>分类</span>
+        </a>
+    </nav>
+    <div class="slider">
+        <div class="container">
+            <img src="./img/slider2.jpg_.webp" alt="">
+            <div class="heng">
+                <div class="heng1"><img src="./img/heng.jpg_.webp" alt=""></div>
+                <div class="heng1"><img src="./img/heng.jpg_.webp" alt=""></div>
+                <div class="heng1"><img src="./img/heng.jpg_.webp" alt=""></div>
+                <div class="heng1"><img src="./img/heng.jpg_.webp" alt=""></div>
+                <div class="heng1"><img src="./img/heng.jpg_.webp" alt=""></div>
+                <div class="heng1"><img src="./img/heng.jpg_.webp" alt=""></div>
+                <div class="heng1"><img src="./img/heng.jpg_.webp" alt=""></div>
+                <div class="heng1"><img src="./img/heng.jpg_.webp" alt=""></div>
+                <div class="heng1"><img src="./img/heng.jpg_.webp" alt=""></div>
+                <div class="heng1"><img src="./img/heng.jpg_.webp" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="hongbao"><img src="./img/hongbao.jpg_.webp" alt=""></div>
+    <div class="xsqg">
+        <div class="xsqgbox">
+            <span class="xsqg-text">限时抢购</span>
+            <div class="sj"></div>
+            <div class="xsqgtu1">
+                <img src="./img/sj.jpg_.webp" alt="">
+                <span class="wnjx">为你精选</span>
+            </div>
+            <div class="xsqgtu1"><img src="./img/yf.jpg_.webp" alt=""> <span class="wnjx">为你精选</span></div>
+        </div>
+        <div class="xsqgbox">
+             <span class="xsqg-text">限时抢购</span>
+            <div class="sj"></div>
+            <div class="xsqgtu1">
+                <img src="./img/sj.jpg_.webp" alt="">
+                <span class="wnjx">为你精选</span>
+            </div>
+            <div class="xsqgtu1"><img src="./img/yf.jpg_.webp" alt=""> <span class="wnjx">为你精选</span></div>
+        </div>
+        <div class="xsqgbox">
+             <span class="xsqg-text">限时抢购</span>
+            <div class="sj"></div>
+            <div class="xsqgtu1">
+                <img src="./img/sj.jpg_.webp" alt="">
+                <span class="wnjx">为你精选</span>
+            </div>
+            <div class="xsqgtu1"><img src="./img/yf.jpg_.webp" alt=""> <span class="wnjx">为你精选</span></div>
+        </div>
+        <div class="xsqgbox">
+             <span class="xsqg-text">限时抢购</span>
+            <div class="sj"></div>
+            <div class="xsqgtu1">
+                <img src="./img/sj.jpg_.webp" alt="">
+                <span class="wnjx">为你精选</span>
+            </div>
+            <div class="xsqgtu1"><img src="./img/yf.jpg_.webp" alt=""> <span class="wnjx">为你精选</span></div>
+        </div>
+    </div>
+    <div class="text">
+         <span>猜你喜欢</span>
+    </div>
+    <div class="cnxhbox">
+        <div class="bigbox">
+
+                <div class="sbox">
+                    <div class="sbox1"><img src="./img/tu1.png" alt="" class="tu1"></div>
+                    <div class="sbox2"><img src="./img/tu2.png" alt="" class="tu1"></div>
+                    <div class="sbox3"><img src="./img/tu3.png" alt="" class="tu1"></div>
+                    <div class="sbox4"><img src="./img/tu4.png" alt="" class="tu1"></div>
+                </div>
+                <div class="dali">
+                    <img src="./img/dali.jpg_.webp" alt="">
+                </div>
+                <div class="sbox">
+                    <div class="sbox1"><img src="./img/tu1.png" alt="" class="tu1"></div>
+                    <div class="sbox2"><img src="./img/tu2.png" alt="" class="tu1"></div>
+                    <div class="sbox3"><img src="./img/tu3.png" alt="" class="tu1"></div>
+                    <div class="sbox4"><img src="./img/tu4.png" alt="" class="tu1"></div>
+                </div>
+                <div class="sbox">
+                    <div class="sbox1"><img src="./img/tu1.png" alt="" class="tu1"></div>
+                    <div class="sbox2"><img src="./img/tu2.png" alt="" class="tu1"></div>
+                    <div class="sbox3"><img src="./img/tu3.png" alt="" class="tu1"></div>
+                    <div class="sbox4"><img src="./img/tu4.png" alt="" class="tu1"></div>
+                </div>
+                <div class="sbox">
+                    <div class="sbox1"><img src="./img/tu1.png" alt="" class="tu1"></div>
+                    <div class="sbox2"><img src="./img/tu2.png" alt="" class="tu1"></div>
+                    <div class="sbox3"><img src="./img/tu3.png" alt="" class="tu1"></div>
+                    <div class="sbox4"><img src="./img/tu4.png" alt="" class="tu1"></div>
+                </div>
+            <div class="sbox">
+                    <div class="sbox1"><img src="./img/tu1.png" alt="" class="tu1"></div>
+                    <div class="sbox2"><img src="./img/tu2.png" alt="" class="tu1"></div>
+                    <div class="sbox3"><img src="./img/tu3.png" alt="" class="tu1"></div>
+                    <div class="sbox4"><img src="./img/tu4.png" alt="" class="tu1"></div>
+                </div>
+            <div class="sbox">
+                    <div class="sbox1"><img src="./img/tu1.png" alt="" class="tu1"></div>
+                    <div class="sbox2"><img src="./img/tu2.png" alt="" class="tu1"></div>
+                    <div class="sbox3"><img src="./img/tu3.png" alt="" class="tu1"></div>
+                    <div class="sbox4"><img src="./img/tu4.png" alt="" class="tu1"></div>
+                </div>
+            <div class="sbox">
+                    <div class="sbox1"><img src="./img/tu1.png" alt="" class="tu1"></div>
+                    <div class="sbox2"><img src="./img/tu2.png" alt="" class="tu1"></div>
+                    <div class="sbox3"><img src="./img/tu3.png" alt="" class="tu1"></div>
+                    <div class="sbox4"><img src="./img/tu4.png" alt="" class="tu1"></div>
+                </div>
+            <div class="sbox">
+                    <div class="sbox1"><img src="./img/tu1.png" alt="" class="tu1"></div>
+                    <div class="sbox2"><img src="./img/tu2.png" alt="" class="tu1"></div>
+                    <div class="sbox3"><img src="./img/tu3.png" alt="" class="tu1"></div>
+                    <div class="sbox4"><img src="./img/tu4.png" alt="" class="tu1"></div>
+                </div>
+            <div class="sbox">
+                    <div class="sbox1"><img src="./img/tu1.png" alt="" class="tu1"></div>
+                    <div class="sbox2"><img src="./img/tu2.png" alt="" class="tu1"></div>
+                    <div class="sbox3"><img src="./img/tu3.png" alt="" class="tu1"></div>
+                    <div class="sbox4"><img src="./img/tu4.png" alt="" class="tu1"></div>
+                </div>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="21a38343-1d54-4213-b091-5c4bf20f56a5" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tmall.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="998" column="25" selection-start-line="998" selection-start-column="25" selection-end-line="998" selection-end-column="25" />
+              <folding>
+                <element signature="n#div#5;n#div#2;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tmall.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="1409" column="30" selection-start-line="1409" selection-start-column="30" selection-end-line="1409" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sj</find>
+      <find>wdtb</find>
+      <find>wdtb1</find>
+      <find>sc</find>
+      <find>sjz</find>
+      <find>dhbox</find>
+      <find>lunbotu</find>
+      <find>dis</find>
+      <find>fle</find>
+      <find>po</find>
+      <find>re</find>
+      <find>relat</find>
+      <find>type</find>
+      <find>inner1</find>
+      <find>@</find>
+      <find>ppsgz</find>
+      <find>ppsgzuo</find>
+      <find>jmpb</find>
+      <find>jmp</find>
+      <find>bbox</find>
+      <find>martle</find>
+      <find>tmcs</find>
+      <find>zhegai</find>
+      <find>martl</find>
+      <find>content</find>
+      <find>fas</find>
+      <find>mart</find>
+      <find>martright2</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/tmall.html" />
+        <option value="$PROJECT_DIR$/tmall.css" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="491" />
+    <option name="y" value="106" />
+    <option name="width" value="884" />
+    <option name="height" value="703" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="天猫" type="b2602c69:ProjectViewProjectNode" />
+              <item name="天猫" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="天猫" type="b2602c69:ProjectViewProjectNode" />
+              <item name="天猫" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21a38343-1d54-4213-b091-5c4bf20f56a5" name="Default Changelist" comment="" />
+      <created>1563787816431</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563787816431</updated>
+      <workItem from="1563787822027" duration="6206000" />
+      <workItem from="1563841198183" duration="34432000" />
+      <workItem from="1563928158143" duration="12440000" />
+      <workItem from="1563963880049" duration="43230000" />
+      <workItem from="1564075475203" duration="598000" />
+      <workItem from="1564100031706" duration="617000" />
+      <workItem from="1564121904898" duration="605000" />
+      <workItem from="1564132543667" duration="3539000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="101667000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="393" y="85" width="707" height="562" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33436054" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32952926" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tmall.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="998" column="25" selection-start-line="998" selection-start-column="25" selection-end-line="998" selection-end-column="25" />
+          <folding>
+            <element signature="n#div#5;n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmall.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="1409" column="30" selection-start-line="1409" selection-start-column="30" selection-end-line="1409" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
